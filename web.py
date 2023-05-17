@@ -11,9 +11,9 @@ def add_todo():
     else:
         print('Do not include blank letter')
 
-st.title('My ToDO App')
+st.title('My To-Do App')
 st.subheader('This is my todo App')
-st.write('This app is to increase your productivity')
+st.write('This app is to increase your productivity by keeping track of your tasks')
 
 
 for index , todo in enumerate(todos):
