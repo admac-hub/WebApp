@@ -1,4 +1,4 @@
-def get_todos(filepath='/home/devacuko/codeQueue/Python60Days/Day1/webapp/todo.txt'):
+def get_todos(filepath='todo.txt'):
     
     '''
     Read the text file and return the list of to-do items 
@@ -8,7 +8,7 @@ def get_todos(filepath='/home/devacuko/codeQueue/Python60Days/Day1/webapp/todo.t
     return todos_local
 
 
-def write_todos(todos_args, filepath='/home/devacuko/codeQueue/Python60Days/Day1/webapp/todo.txt'):
+def write_todos(todos_args, filepath='todo.txt'):
     '''
     Write the to-do list items in a text file
     '''
